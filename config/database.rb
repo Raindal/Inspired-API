@@ -1,0 +1,1 @@
+set :database, ENV['DATABASE_URL'] || { adapter: 'sqlite3', database: 'db/development.sqlite3' }
